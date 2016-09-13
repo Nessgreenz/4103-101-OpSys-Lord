@@ -14,11 +14,11 @@ then
 		for w in $*
 		do
 			#sums up numbers
-			let sum=$sum+$w
+			let sum=$((sum+w))
 			
 		done
 		#print results of sum
-		echo $number"="$sum
+		echo $sum
 		
 else
 		#prints if user entered more than 9 arguments
