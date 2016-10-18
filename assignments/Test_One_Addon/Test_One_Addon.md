@@ -5,41 +5,41 @@
  
   
   ##1. Multi-tasking
- Multi-tasking is the concept of running multiple tasks / processes concurrently. These task  start and interrupt eachother constantly giving each task its own control.
+ #### Multi-tasking is the concept of running multiple tasks / processes concurrently. These task  start and interrupt eachother constantly giving each task its own control.
  This gives the illusion of parallelism .
  
  An example of multi-tasking is when a Web browser is being used and then Microsoft Word is opened at the same time, you are causing the operating system to do multitasking by context switching.
  
   ##2. Multi-programming
- Multi-programming is the maximizing of the use of CPU time.Through Multi-programming,one or more programs are loaded into main memory and when only one program is using the CPU for executing its instructions, the others are waiting their turn.
+  #### Multi-programming is the maximizing of the use of CPU time.Through Multi-programming,one or more programs are loaded into main memory and when only one program is using the CPU for executing its instructions, the others are waiting their turn.
  This occurs until all programs are finish executing.
  
  An example of multi-programming is when 2 programs are waiting to be executed by the CPU, when the 1st one is choosen by the OS but has an I/O operation to perform.
  The OS puts the 1st program in queue then executes the 2nd program while the 1st program recieves or outputs its data.
  
   ##3. Multi-processing
- Multi-processing  is the use of multiple processors in one system.
+  #### Multi-processing  is the use of multiple processors in one system.
  
  An example of multi-processing is the use of dual core and quad core processors.
  
   ##4. Multi-threaded
- Multi-threading allows a single process to have multiple code segments known as threads which are seen as subprocesses that share the parent process resources but are executed independently to eachother.
+  #### Multi-threading allows a single process to have multiple code segments known as threads which are seen as subprocesses that share the parent process resources but are executed independently to eachother.
  
  An example of multi-threading is running games, the use of multiple objects in games like cars,animals and people are threads that run the game application.
  
  # Review Questions From Chapter 3
  
   ##1. What is an instruction trace?
- An instruction trace is a listing of instructions that the process executes.
+  #### An instruction trace is a listing of instructions that the process executes.
  
   ##2. What common events lead to the creation of a process?
- 4 common events lead to the creation of a process, (1) new batch job (2)System initialization (3)user's request to create a new process (4)Execution of process creation System calls by a running process.
+  #### 4 common events lead to the creation of a process, (1) new batch job (2)System initialization (3)user's request to create a new process (4)Execution of process creation System calls by a running process.
 
   ##3. What does it mean to preempt a process?
-  Preempting a process is when a process gets interrupted so that another process(higher-priority process) can be executed.
+   #### Preempting a process is when a process gets interrupted so that another process(higher-priority process) can be executed.
  
   ##4. What is swapping and what is its purpose?
- Swapping is when the OS needs to release sufficient memory for a new process to execute so it moves a process or all  processes from main memory to disk.
+  #### Swapping is when the OS needs to release sufficient memory for a new process to execute so it moves a process or all  processes from main memory to disk.
  The purpose of swapping is to save space in main memory so that it can be properly utilised. without it more memory space will need to be purchased.
  
   ##5. Why does Figure 3.9b have two blocked states?
