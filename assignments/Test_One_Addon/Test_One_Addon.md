@@ -4,7 +4,7 @@
   
  
   
-  ## *1. Multi-tasking*
+## *1. Multi-tasking*
   
  Multi-tasking is the concept of running multiple tasks / processes concurrently. These task  start and interrupt eachother constantly giving each task its own control.
  This gives the illusion of parallelism .
